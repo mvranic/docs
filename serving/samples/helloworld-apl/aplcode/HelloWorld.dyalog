@@ -1,6 +1,6 @@
 res←helloWorld arg;sink;target
  ⎕←'Start helloWorld fn.'
- ⎕←'arg:'arg
+ ⎕←'arg:'(uDisplay arg)
  sink←arg
  
  _getenv←{2 ⎕NQ'.' 'GetEnvironment'⍵}
